@@ -28,6 +28,6 @@ app.UseAuthorization();
 app.MapControllerRoute(// tell the app how the routing should work
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");//the ? in .net means can be defined or not
-    //for default, nav to home/index, id is optional
+    //for default route, nav to home/index, id is optional
 
 app.Run();

@@ -15,7 +15,7 @@ namespace BulkyWeb.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View();// if no name is define in view, it will use same name as action name which is index view in this case
         }
 
         public IActionResult Privacy()
